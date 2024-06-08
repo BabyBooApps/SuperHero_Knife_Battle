@@ -3,7 +3,7 @@
 
 *.apk
 *.aab
-*.mp3
+#*.mp3
 
 # Ignore Visual Studio files
 *.suo
@@ -11,29 +11,29 @@
 *.ide
 
 # Ignore Unity files
-*.tga
-*.anim
-*.asset
-*.png
-*.wav
-*.FBX
-*.psd
-*.unity
-*.bmp
-*.jpg
-*.tif
-*.pdf
-*.cubemap
-*.rtf
+#*.tga
+#*.anim
+#*.asset
+#*.png
+#*.wav
+#*.FBX
+#*.psd
+#*.unity
+#*.bmp
+#*.jpg
+#*.tif
+#*.pdf
+#*.cubemap
+#*.rtf
 
 # Ignore generic 3D model files
-*.fbx
+#*.fbx
 
 # Ignore any file with a .lock extension
-*.lock
+#*.lock
 
 
 # Ignore Unity Library folder
 Library/
 
-.vs/
+#.vs/
