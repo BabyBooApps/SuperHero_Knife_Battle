@@ -3,6 +3,7 @@
 
 *.apk
 *.aab
+*.mp3
 
 # Ignore Visual Studio files
 *.suo
