@@ -36,9 +36,9 @@ public class AdsManager : MonoBehaviour
     void Start()
     {
         interstitial.LoadAd();
-        banner.LoadAd();
+        //banner.LoadAd();
         RewardAd.LoadAd();
-        banner.ShowAd();
+        //banner.ShowAd();
 
         /* MobileAds.Initialize((InitializationStatus initStatus) =>
          {

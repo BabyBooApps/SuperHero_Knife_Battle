@@ -40,6 +40,8 @@ public class Unity_Ads_Manager : MonoBehaviour, IUnityAdsInitializationListener
         banner_Unity_Ads.LoadBanner();
         interstitials_Unity_Ads.LoadAd();
         reward_Video_Unity_Ads.LoadAd();
+
+        banner_Unity_Ads.ShowBannerAd();
     }
 
     public void OnInitializationFailed(UnityAdsInitializationError error, string message)
