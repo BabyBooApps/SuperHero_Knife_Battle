@@ -59,7 +59,7 @@ public class Banner_Unity_Ads : MonoBehaviour
     void OnBannerLoaded()
     {
         Debug.Log("Banner loaded");
-        //ShowBannerAd();
+        ShowBannerAd();
 
         // Configure the Show Banner button to call the ShowBannerAd() method when clicked:
         // _showBannerButton.onClick.AddListener(ShowBannerAd);

@@ -11,7 +11,7 @@ public class AdsManager : MonoBehaviour
 
     public Unity_Ads_Manager Unity_Ads;
     public  BannerViewController banner;
-    public InterstitialAdController interstitial;
+    public  InterstitialAdController interstitial;
     public RewardedAdController RewardAd;
 
     private void Awake()
@@ -35,9 +35,17 @@ public class AdsManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        interstitial.LoadAd();
+        if(interstitial != null)
+        {
+            interstitial.LoadAd();
+        }
+       
         //banner.LoadAd();
-        RewardAd.LoadAd();
+        if(RewardAd != null)
+        {
+            RewardAd.LoadAd();
+        }
+       
         //banner.ShowAd();
 
         /* MobileAds.Initialize((InitializationStatus initStatus) =>
