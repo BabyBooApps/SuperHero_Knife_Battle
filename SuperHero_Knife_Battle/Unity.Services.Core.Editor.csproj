@@ -60,8 +60,10 @@
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\Linker\Models\XmlLinkedMember.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\ProjectBindRedirect\ProjectBindRedirectContentUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\Shared\DependencyInversion\Scope.Gen.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\EditorGameService\Analytics\EditorGameServiceAnalytic.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\ProjectStateManagement\ProjectStateRequest.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\ProjectStateManagement\ServiceFlagRequest.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\EditorGameService\Analytics\EditorGameServiceAnalyticData.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\Shared\EditorUtils\EditorValueTracker.Gen.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\Shared\UI\Notifications.Gen.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\EditorGameService\EditorGameServiceRegistry.cs" />
@@ -92,6 +94,7 @@
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\EditorGameService\IEditorGameService.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\UiHelpers\LoggedOutUiHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\Networking\ProductionTokenExchangeUrls.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\Utils\AccessTokensSingleton.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\Linker\Models\XmlLinkedAssembly.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\EditorGameService\Analytics\EditorGameServiceAnalyticsSender.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\Linker\Models\XmlLinkedPreserve.cs" />
@@ -172,9 +175,6 @@
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\Telemetry\PackageConfig.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\Shared\DependencyInversion\DependencyNotFoundException.Gen.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\Shared\Infrastructure\Collections\ReadOnlyObservableCollection.Gen.cs" />
-    <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\Utils\AccessTokensSingleton.cs" />
-    <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\EditorGameService\Analytics\EditorGameServiceAnalytic.cs" />
-    <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\EditorGameService\Analytics\EditorGameServiceAnalyticData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\UiHelpers\UXML\ExceptionVisual.uxml" />

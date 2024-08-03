@@ -105,6 +105,7 @@
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.12.0\Editor\Analytics\Helpers\GenericEditorDropdownSelectEventSenderHelpers.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.12.0\Editor\MenuItems\ItemCreationUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.12.0\Editor\ServiceProjectSettings\Service\GoogleConfigService.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.12.0\Editor\ServiceProjectSettings\Service\Networking\GetGoogleKeyWebRequest.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.12.0\Editor\Analytics\PurchasingServiceAnalyticsSender.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.12.0\Editor\ServiceProjectSettings\UI\Views\PlatformsAndStoresEnabledServiceSettingsBlock.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.12.0\Editor\CodelessIAPButtonEditor.cs" />
@@ -131,6 +132,7 @@
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.12.0\Editor\ServiceProjectSettings\UI\Views\AnalyticsWarningServiveSettingsBlock.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.12.0\Editor\ServiceProjectSettings\Entity\GooglePlayRevenueTrackingKeyState.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.12.0\Editor\ServiceProjectSettings\Presenter\PurchasingEnabledState.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.12.0\Editor\ServiceProjectSettings\Service\Networking\Models\GooglePlayKeyRequestResult.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.12.0\Editor\WinRTPatcher.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.12.0\Editor\SwitchStoreEditorWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.12.0\Editor\AppleCapabilities.cs" />
@@ -149,8 +151,6 @@
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.12.0\Editor\Analytics\Helpers\GenericEditorMenuItemClickEventSenderHelpers.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.12.0\Editor\Analytics\PurchasingServiceAnalyticsRegistrar.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.12.0\Editor\MenuItems\IapButtonMenu.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.12.0\Editor\ServiceProjectSettings\Service\Networking\Models\GooglePlayKeyRequestResult.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.12.0\Editor\ServiceProjectSettings\Service\Networking\GetGoogleKeyWebRequest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.purchasing@4.12.0\Editor\ServiceProjectSettings\UI\UXML\AnalyticsWarning.uxml" />

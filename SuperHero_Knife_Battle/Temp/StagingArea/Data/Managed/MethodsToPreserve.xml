@@ -1,0 +1,14 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="InterstitialAdController">
+			<method name="ShowAd"/>
+			<method name="ShowAd"/>
+			<method name="ShowAd"/>
+		</type>
+		<type fullname="RewardedAdController">
+			<method name="ShowAd"/>
+			<method name="ShowAd"/>
+			<method name="ShowAd"/>
+		</type>
+	</assembly>
+</linker>

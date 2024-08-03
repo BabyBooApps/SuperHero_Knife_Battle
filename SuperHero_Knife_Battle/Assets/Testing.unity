@@ -10109,8 +10109,8 @@ MonoBehaviour:
   banner_Unity_Ads: {fileID: 800579397}
   interstitials_Unity_Ads: {fileID: 800579398}
   reward_Video_Unity_Ads: {fileID: 800579399}
-  _androidGameId: 5366366
-  _iOSGameId: 5366367
+  _androidGameId: 5629083
+  _iOSGameId: 5629083
   _testMode: 0
 --- !u!4 &800579396
 Transform:

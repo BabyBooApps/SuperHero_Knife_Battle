@@ -36,13 +36,6 @@
 		<type fullname="VictoryScreen" preserve="nothing"/>
 		<type fullname="WinProcess" preserve="nothing"/>
 	</assembly>
-	<assembly fullname="GoogleMobileAds.Common">
-		<type fullname="GoogleMobileAds.Common.MobileAdsEventExecutor" preserve="nothing"/>
-	</assembly>
-	<assembly fullname="UnityEngine.Advertisements">
-		<type fullname="UnityEngine.Advertisements.Placeholder" preserve="nothing"/>
-		<type fullname="UnityEngine.Advertisements.Platform.Editor.BannerPlaceholder" preserve="nothing"/>
-	</assembly>
 	<assembly fullname="UnityEngine">
 		<type fullname="UnityEditor.Animations.AnimatorController" preserve="nothing"/>
 		<type fullname="UnityEditor.AudioManager" preserve="nothing"/>

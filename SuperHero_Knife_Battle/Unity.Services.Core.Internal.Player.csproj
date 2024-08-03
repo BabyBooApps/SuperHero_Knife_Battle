@@ -56,10 +56,14 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Components\Authentication\IServerAccessToken.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Registry\ServiceRegistry\IServiceRegistry.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Registry\CoreRegistryInitializer.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Registry\ComponentRegistry\ComponentRegistry.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Registry\ServiceRegistry\ServiceRegistry.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\UnityServicesInternal.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Registry\ServiceRegistry\LockedServiceRegistry.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\AsyncOperation\AsyncOperationAwaiter.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Serialization\IJsonSerializer.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Registry\IServiceComponent.cs" />
@@ -74,6 +78,7 @@
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\UnityServicesInitializer.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\AsyncOperation\IAsyncOperation.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Components\Networking\HttpOptions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Registry\CorePackageRegistry.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Components\Authentication\IEnvironmentId.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\AsyncOperation\AsyncOperationStatus.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Components\Device\IInstallationId.cs" />
@@ -88,6 +93,7 @@
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Components\Analytics\IAnalyticsStandardEventComponent.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Components\Authentication\IPlayerId.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Components\Configuration\IProjectConfiguration.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Components\Authentication\IAccessTokenObserver.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Registry\CoreRegistration.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Registry\IInitializablePackage.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Components\Wire\IChannel.cs" />
@@ -105,13 +111,17 @@
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Registry\DependencyTree.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Registry\MissingComponent.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Registry\PackageRegistry\LockedPackageRegistry.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Registry\IInitializablePackageV2.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Components\Authentication\IServerEnvironmentId.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Components\Configuration\ICloudProjectId.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Components\Vivox\IVivoxTokenProviderInternal.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Components\Wire\ChannelToken.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Components\Authentication\IAccessToken.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Components\Wire\SubscriptionState.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Components\Wire\IWire.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Telemetry\CoreMetrics.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Components\Networking\HttpRequestExtensions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Telemetry\CoreDiagnostics.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Registry\DependencyTreeExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Components\Networking\IHttpClient.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Components\Vivox\IVivox.cs" />
@@ -122,18 +132,8 @@
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Registry\PackageInitializationInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Components\Environments\IEnvironments.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Registry\CircularDependencyException.cs" />
-    <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Components\Scheduler\IActionScheduler.cs" />
-    <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Components\Authentication\IServerAccessToken.cs" />
-    <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Components\Authentication\IAccessTokenObserver.cs" />
-    <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Registry\ServiceRegistry\ServiceRegistry.cs" />
-    <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Registry\IInitializablePackageV2.cs" />
-    <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Components\Authentication\IServerEnvironmentId.cs" />
-    <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Telemetry\CoreDiagnostics.cs" />
-    <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Registry\ServiceRegistry\IServiceRegistry.cs" />
-    <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Telemetry\CoreMetrics.cs" />
-    <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Registry\CorePackageRegistry.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\UnityServicesEditorInitializer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Registry\ServiceRegistry\LockedServiceRegistry.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Components\Scheduler\IActionScheduler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.services.core@1.12.5\Runtime\Core.Internal\Unity.Services.Core.Internal.asmdef" />
